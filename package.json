@@ -5,6 +5,7 @@
     "express": "^4.17.3",
     "mongodb": "^4.4.0",
     "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
     "ssh2": "^1.6.0"
   },
   "devDependencies": {

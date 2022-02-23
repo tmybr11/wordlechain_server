@@ -1,4 +1,4 @@
-const dotenv = require('dotenv').config()
+require('dotenv').config({ path: '../.env' })
 const { MongoClient } = require('mongodb');
 const connectionString = `mongodb://${process.env.MONGO_HOST}:${process.env.MONGO_PORT}`;
 const client = new MongoClient(connectionString, {
