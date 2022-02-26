@@ -3,6 +3,7 @@
     "axios": "^0.26.0",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "ioredis": "^4.28.5",
     "mongodb": "^4.4.0",
     "mysql2": "^2.3.3",
     "node-cron": "^3.0.0",
